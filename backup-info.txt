@@ -1,0 +1,23 @@
+Project: Family Feud Game
+Version: Arvind_v1
+Date: 1970-01-01
+
+Features:
+- Team name setup at game start
+- Buzzer selection system
+- First answer comparison for turn control
+- 3 strikes for first team, 1 strike for passed team
+- Score tracking with team names
+- Clean transitions between questions
+- No celebration GIFs
+- Simple win announcements
+
+Components:
+- App.tsx: Main game logic and state management
+- GameBoard.tsx: Game interface and answer handling
+- ScoreBoard.tsx: Score display with team names
+- TeamSetup.tsx: Initial team name input
+- BuzzerSelection.tsx: Buzzer winner selection
+- FirstAnswers.tsx: First answer comparison
+- TransitionPage.tsx: Question transitions
+- FinalScore.tsx: End game display
